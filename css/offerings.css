@@ -1,0 +1,339 @@
+.offerings {
+    padding: 160px 0;
+}
+
+
+.offerings__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.offerings__desc-title {
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+
+}
+
+.offerings__desc-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(153, 153, 153, 1);
+    max-width: 770px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.offerings__cards {
+    padding: 25px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.offerings__abs {
+    position: absolute;
+    left: -350px;
+    top: 300px;
+}
+
+
+.offerings__cards-card {
+    max-width: 370px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 20px 50px 0px rgba(51, 51, 51, 0.4);
+    transition: 1s ease;
+}
+
+.offerings__cards-card-image {
+
+    width: 100%;
+    height: 240px;
+    padding: 24px;
+
+}
+
+.one-card {
+    background: url(../images/oneCard.png);
+}
+
+.two-card {
+    background: url(../images/oneCard.png);
+}
+
+.three-card {
+    background: url(../images/threeCard.png);
+}
+
+.four-card {
+    background: url(../images/fourCard.png);
+}
+
+.five-card {
+    background: url(../images/FiveCard.png);
+}
+
+.six-card {
+    background: url(../images/sixCard.png);
+}
+
+.offerings__cards-card-image-button {
+    padding: 8px 12px;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+
+}
+
+.offerings__cards-card:hover {
+    transform: scale(1.05);
+}
+
+
+.offerings__cards-card-opacity-desc {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.offerings__cards-card-opacity-desc-title h3 {
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+}
+
+.offerings__cards-card-opacity-desc-title span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+
+}
+
+.offerings__cards-card-opacity-desc-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.offerings__cards-card-opacity-desc-progress progress {
+    border-radius: 0;
+    height: 8px;
+    color: rgba(94, 77, 205, 1);
+    width: 100%;
+}
+
+.offerings__cards-card-opacity-desc-progress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.offerings__cards-card-opacity-desc-progress progress::-webkit-progress-value {
+    background: rgba(94, 77, 205, 1);
+}
+
+.offerings__cards-card-opacity-desc-progress progress::-webkit-progress-bar {
+    background-color: #f1f1f1;
+}
+
+.offerings__cards-card-opacity-desc-progress p {
+
+
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.offerings__cards-card-opacity-desc-progress p span {
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(94, 77, 205, 1);
+}
+
+
+
+
+
+.offerings__cards-card:hover .offerings__cards-card-opacity {
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.offerings__cards-card:hover .offerings__cards-card-focus {
+    opacity: 1;
+}
+
+.offerings__cards-card .offerings__cards-card-focus {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1s ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    max-width: 322px;
+    width: 100%;
+
+}
+
+.offerings__cards-card-focus-title h3 {
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.offerings__cards-card-focus-title span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+
+
+}
+
+.offerings__cards-card-focus-progress progress {
+    border-radius: 0;
+    height: 8px;
+    color: rgba(94, 77, 205, 1);
+    width: 100%;
+    margin: 24px 0px 8px;
+}
+
+.offerings__cards-card-focus-progress p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.offerings__cards-card-focus-progress progress::-webkit-progress-bar {
+    background-color: #f1f1f1;
+}
+
+.offerings__cards-card-focus-progress progress::-webkit-progress-value {
+    background: rgba(94, 77, 205, 1);
+}
+
+.offerings__cards-card-focus-progress-text {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.offerings__cards-card-focus-progress-text span {
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(94, 77, 205, 1);
+}
+
+.offerings__cards-card-focus-type {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.offerings__cards-card-focus-type p {
+    display: flex;
+    justify-content: space-between;
+
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.offerings__cards-card-focus-type p span {
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+
+}
+
+
+.offerings__cards-card-focus-btn {
+
+    position: absolute;
+    bottom: -110px;
+    left: -24px;
+
+    width: 380px;
+    padding: 24px 0;
+
+    background-color: rgba(255, 210, 221, 1);
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: 1s ease;
+    color: rgba(94, 77, 205, 1);
+
+
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+
+
+}
+
+.offerings__cards-card:hover .offerings__cards-card-focus-btn {
+    opacity: 1;
+}
+
+.offerings__btn {
+    max-width: 270px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    background: none;
+    border: 1px solid rgba(94, 77, 205, 1);
+    margin-top: 40px;
+    cursor: pointer;
+    color: rgba(94, 77, 205, 1);
+
+
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
